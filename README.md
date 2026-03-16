@@ -1,28 +1,39 @@
 # Homebrew Tap for PromptRails
 
-This is the official [Homebrew](https://brew.sh) tap for [PromptRails](https://github.com/promptrails/cli) CLI.
+Official [Homebrew](https://brew.sh) tap for [PromptRails](https://promptrails.ai) tools.
+
+## Available Packages
+
+| Package | Type | Description |
+|---------|------|-------------|
+| `promptrails` | Formula | CLI for PromptRails AI agent orchestration |
+| `promptrails-monitor` | Cask | Desktop monitoring app for agent executions |
 
 ## Installation
+
+### CLI
 
 ```bash
 brew tap promptrails/tap
 brew install promptrails
 ```
 
+### Desktop Monitor
+
+```bash
+brew tap promptrails/tap
+brew install --cask promptrails-monitor
+```
+
 ## Upgrade
 
 ```bash
 brew upgrade promptrails
+brew upgrade --cask promptrails-monitor
 ```
 
-## Usage
+## Links
 
-```bash
-promptrails --help
-```
-
-For full documentation, see the [CLI repository](https://github.com/promptrails/cli).
-
-## How It Works
-
-The formula in this tap is automatically updated by [GoReleaser](https://goreleaser.com/) whenever a new CLI release is published.
+- [CLI Repository](https://github.com/promptrails/cli)
+- [Desktop Monitor Repository](https://github.com/promptrails/desktop)
+- [PromptRails](https://promptrails.ai)
