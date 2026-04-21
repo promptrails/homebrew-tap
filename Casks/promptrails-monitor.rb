@@ -1,14 +1,14 @@
 cask "promptrails-monitor" do
-  version "0.1.0"
+  version "0.2.0"
 
   on_intel do
     url "https://github.com/promptrails/desktop/releases/download/v#{version}/PromptRails.Monitor_#{version}_x64.dmg"
-    sha256 "ddb12879856bceba19490150e410cc971df941dc2f3c74acadef5bcbdd5766d0"
+    sha256 "ece290714cc8e442628ebc1d05c75956b2e0068b1f598c60910a01eae3eedef1"
   end
 
   on_arm do
     url "https://github.com/promptrails/desktop/releases/download/v#{version}/PromptRails.Monitor_#{version}_aarch64.dmg"
-    sha256 "4deff4128fd8db121c873386ea2f81aa41d07bac53f763d9151d6eaad7259e18"
+    sha256 "76c21cf19d21da6f75036a9f82d3ffcdb09d4ab851729af380a3ca49c9110de8"
   end
 
   name "PromptRails Monitor"
