@@ -1,30 +1,30 @@
 class Promptrails < Formula
   desc "CLI for the PromptRails AI agent orchestration platform"
   homepage "https://github.com/promptrails/cli"
-  version "0.6.3"
+  version "0.6.4"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/promptrails/cli/releases/download/v0.6.3/promptrails-darwin-amd64.tar.gz"
-      sha256 "3580437d7a497e32cb1f687c88e18a6970195e318ce6aeea1c2340496ebdfdca"
+      url "https://github.com/promptrails/cli/releases/download/v0.6.4/promptrails-darwin-amd64.tar.gz"
+      sha256 "3932e51d24f84fc7b28121d5b27b6ce5a6751fd9e5661a50d6b4c6b87fe1b6c7"
     end
 
     on_arm do
-      url "https://github.com/promptrails/cli/releases/download/v0.6.3/promptrails-darwin-arm64.tar.gz"
-      sha256 "7f609c2555de0bb5d20ab8b0251cd1218eff0d751509ed52374008d934868fb3"
+      url "https://github.com/promptrails/cli/releases/download/v0.6.4/promptrails-darwin-arm64.tar.gz"
+      sha256 "1ce44863160f44bd8300f1736143ddf0e5e0e36e0c20f76520d336e2c3655ce3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/promptrails/cli/releases/download/v0.6.3/promptrails-linux-amd64.tar.gz"
-      sha256 "9c8e9c5698799f1917130ee1f438c727b74cb95d3041b9b96193193922c89556"
+      url "https://github.com/promptrails/cli/releases/download/v0.6.4/promptrails-linux-amd64.tar.gz"
+      sha256 "5e1f9b87d9891c7a6b788348db2574250713d9a432601888faba6649dbdfcb09"
     end
 
     on_arm do
-      url "https://github.com/promptrails/cli/releases/download/v0.6.3/promptrails-linux-arm64.tar.gz"
-      sha256 "535177497653b07e857d3ce74ca42b56a7117f629bfb7c2ee2fcb8fa80445546"
+      url "https://github.com/promptrails/cli/releases/download/v0.6.4/promptrails-linux-arm64.tar.gz"
+      sha256 "60b99b8d98061e012816391c9e77aa6b65561172cdbe2a7f3ccca3db1f244450"
     end
   end
 
